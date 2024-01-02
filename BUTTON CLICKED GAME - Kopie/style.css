@@ -1,0 +1,62 @@
+body {
+    height: 98vh;
+    background: linear-gradient(145deg, green, cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 50px;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse   
+}
+
+#comments {
+    position: ;
+    bottom: 0;
+}
+
+input {
+    height: 250px;
+    width: 500px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: ;
+}
+.timer {
+    height: 200px;
+    width: 400px;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: beige;
+}
+h1 {
+    position: absolute;
+    top: 0;
+}
+h2 {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+#comments {
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+input:hover {
+    background-color: rgb(31, 194, 31);
+}
