@@ -11,7 +11,7 @@ body {
     flex-direction: row-reverse;
     justify-content: start;
     gap: 50px;
-    border: solid;
+    border: hidden;
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse   
@@ -23,11 +23,17 @@ body {
 }
 
 input {
-    height: 250px;
+    font: 4em;
+ 
+    height: 125px;
     width: 500px;
     cursor: pointer;
-    border-radius: 15px;
-    border: ;
+    border-radius: 12px;
+    background-color: beige;
+    border: hidden;
+    box-shadow: 0 9px #999;
+
+
 }
 .timer {
     height: 200px;
@@ -38,6 +44,7 @@ input {
     align-items: center;
     position: relative;
     background-color: beige;
+    z-index: -1;
 }
 h1 {
     position: absolute;
@@ -59,4 +66,13 @@ h2 {
 
 input:hover {
     background-color: rgb(31, 194, 31);
+    transition: .6s;
+
+   
 }
+
+input:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

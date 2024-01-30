@@ -16,7 +16,7 @@ mouseclicksound.play();
 
  timer.textContent = clickedamount;
  
- if (clickedamount == 25) {
+ if (clickedamount == 5) {
 
     blingsound.play();
 
